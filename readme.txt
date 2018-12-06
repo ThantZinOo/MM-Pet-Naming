@@ -17,3 +17,5 @@ npm install body-parser
 
 git remote add origin https://github.com/ThantZinOo/MM-Pet-Naming.git
 git push
+
+oc login https://api.starter-us-west-1.openshift.com --token=t9CPPcS1h8PQSCdSfqNgdABelH9VCePPWmvou7GXf54

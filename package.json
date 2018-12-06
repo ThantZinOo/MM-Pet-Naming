@@ -16,5 +16,9 @@
   "engine": {
     "node": "*",
     "npm": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/ThantZinOo/MM-Pet-Naming.git" 
   }
 }
