@@ -14,3 +14,6 @@ lottery : {seq, number, phone}
 
 npm init
 npm install body-parser
+
+git remote add origin https://github.com/ThantZinOo/MM-Pet-Naming.git
+git push
