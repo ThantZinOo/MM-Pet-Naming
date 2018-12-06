@@ -4,6 +4,7 @@
   "description": "methods\r ===========\r findAll(seq): returns a promise that resolves to an array of lottery objects\r create({ lottery: ‘Sample Todo’ }): returns a promise that resolves to a newly created todo object\r findById(‘0123’): returns a promise that resolves to the todo object with provided id, e.g., ‘0123’.",
   "main": "index.js",
   "scripts": {
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TZap. <tz182736@gmail.com>",
@@ -15,9 +16,5 @@
   "engine": {
     "node": "*",
     "npm": "*"
-  },
-  "scripts": {
-    "start": "index.js",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
-  }
+  }, 
 }
