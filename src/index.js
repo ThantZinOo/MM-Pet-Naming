@@ -33,4 +33,7 @@ service.delete('/lottery/:id', async (req, res) => {
     // res.send(await Lottery.destroy(req.params.id));
 });
 
-service.start(3000).then((server) => { });
+var ip = process.env.IP  || '0.0.0.0';
+var port = process.env.PORT || 8080;
+
+service.start(port,ip).then((server) => { });
